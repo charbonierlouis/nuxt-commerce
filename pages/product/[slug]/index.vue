@@ -4,10 +4,8 @@
 
 <template>
     <main>
-        <div>
-            <ContentDoc :path="`/${slug}`">
-
-            </ContentDoc>
-        </div>
+        <section>
+            <ContentDoc :path="`/products/informations/${slug}`" />
+        </section>
     </main>
 </template>
